@@ -21,14 +21,17 @@ A simple radar system developed using **Arduino Uno**, **HC-SR04 Ultrasonic Sens
 
 ## Circuit Diagram
 
-![Circuit](Circuit_Diagram/circuit_diagram.png)
+<p align="center">
+  <img src="Circuit_Diagram/circuit_diagram.png" width="700" alt="Circuit Diagram"/>
+</p>
 
-## Project Setup
+## Hardware Setup & Radar Output
 
-| Hardware Setup | Radar Output |
-|---------------|--------------|
-| ![](Images/setup_photo.png) | ![](Images/radar_output.png) |
+<p align="center">
+  <img src="Images/radar_output.png" width="700" alt="Arduino Radar Setup and Output"/>
+</p>
 
+The image above shows the complete hardware setup and the real-time radar visualization created using the Processing IDE.
 ## Working Principle
 
 1. Servo rotates from 0° to 180°.
