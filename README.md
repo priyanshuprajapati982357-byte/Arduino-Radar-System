@@ -22,13 +22,13 @@ A simple radar system developed using **Arduino Uno**, **HC-SR04 Ultrasonic Sens
 ## Circuit Diagram
 
 <p align="center">
-  <img src="Circuit_Diagram/circuit_diagram.png" width="700" alt="Circuit Diagram"/>
+  <img src="./Circuit_Diagram/circuit_diagram.png" width="700">
 </p>
 
 ## Hardware Setup & Radar Output
 
 <p align="center">
-  <img src="Images/radar_output.png" width="700" alt="Arduino Radar Setup and Output"/>
+  <img src="./Images/radar_output.png" width="700">
 </p>
 
 The image above shows the complete hardware setup and the real-time radar visualization created using the Processing IDE.
