@@ -1,20 +1,49 @@
 # Arduino-Based Radar System
 
-## Overview
-This project is a simple radar system built using Arduino Uno, HC-SR04 Ultrasonic Sensor and a Servo Motor. The servo rotates from 0° to 180° while the ultrasonic sensor detects nearby objects. The object's distance and angle are displayed in real time using the Processing IDE.
+A simple radar system developed using **Arduino Uno**, **HC-SR04 Ultrasonic Sensor**, and an **SG90 Servo Motor**. The servo continuously scans a 180° area while the ultrasonic sensor measures the distance of nearby objects. The data is visualized in real time using the Processing IDE.
 
-## Components
-- Arduino Uno
-- HC-SR04 Ultrasonic Sensor
-- SG90 Servo Motor
-- Jumper Wires
-- USB Cable
+## Features
 
-## Working
-1. Servo scans from 0° to 180°.
+- 180° object scanning
+- Real-time distance measurement
+- Radar visualization on computer
+- Serial communication between Arduino and Processing
+
+## Components Used
+
+| Component | Quantity |
+|-----------|----------|
+| Arduino Uno | 1 |
+| HC-SR04 Ultrasonic Sensor | 1 |
+| SG90 Servo Motor | 1 |
+| Breadboard | 1 |
+| Jumper Wires | As required |
+
+## Circuit Diagram
+
+![Circuit](Circuit_Diagram/circuit_diagram.png)
+
+## Project Setup
+
+| Hardware Setup | Radar Output |
+|---------------|--------------|
+| ![](Images/setup_photo.png) | ![](Images/radar_output.png) |
+
+## Working Principle
+
+1. Servo rotates from 0° to 180°.
 2. Ultrasonic sensor measures object distance.
-3. Arduino sends angle and distance through Serial.
-4. Processing displays the radar screen.
+3. Arduino sends angle and distance through serial communication.
+4. Processing displays the radar sweep and detected object.
 
 ## Technologies
-Arduino, Embedded C, Processing IDE
+
+- Arduino Uno
+- Embedded C
+- HC-SR04
+- SG90 Servo
+- Processing IDE
+
+## Author
+
+**Priyanshu Prajapati**
